@@ -153,25 +153,25 @@ const Footer = () => {
             </h3>
             <div className="space-y-3 text-sm text-gray-600">
               <div className="flex items-start space-x-3">
-                <MapPin size={18} className="text-orange-600 mt-1 flex-shrink-0" />
+                <MapPin size={18} className="text-sky-600 mt-1 flex-shrink-0" />
                 <p>
                   Flat No-503, 5th Floor, MVS Heights, Vinayaka Nagar, Khanamet, 
                   Madhapur, Hyderabad-500081, Telangana.
                 </p>
               </div>
               <div className="flex items-center space-x-3">
-                <Phone size={18} className="text-orange-600 flex-shrink-0" />
+                <Phone size={18} className="text-sky-600 flex-shrink-0" />
                 <div>
-                  <a href="tel:9866937777" className="hover:text-orange-600 transition-colors">9866937777</a>
+                  <a href="tel:9866937777" className="hover:text-sky-600 transition-colors">9866937777</a>
                   <span className="mx-1">/</span>
-                  <a href="tel:9032018887" className="hover:text-orange-600 transition-colors">9032018887</a>
+                  <a href="tel:9032018887" className="hover:text-sky-600 transition-colors">9032018887</a>
                   <span className="mx-1">/</span>
-                  <a href="tel:9347294612" className="hover:text-orange-600 transition-colors">9347294612</a>
+                  <a href="tel:9347294612" className="hover:text-sky-600 transition-colors">9347294612</a>
                 </div>
               </div>
               <div className="flex items-center space-x-3">
-                <Mail size={18} className="text-orange-600 flex-shrink-0" />
-                <a href="mailto:aurobindodental@gmail.com" className="hover:text-orange-600 transition-colors">
+                <Mail size={18} className="text-sky-600 flex-shrink-0" />
+                <a href="mailto:aurobindodental@gmail.com" className="hover:text-sky-600transition-colors">
                   aurobindodental@gmail.com
                 </a>
               </div>

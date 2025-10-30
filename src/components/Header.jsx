@@ -26,7 +26,7 @@ const Header = () => {
           <Link to="/" className="flex items-center space-x-2">
             <div className="text-2xl font-bold">
               <span className="text-gray-800">Aurobindo</span>
-              <span className="text-orange-600"> Dental</span>
+              <span className="text-sky-600"> Dental</span>
             </div>
           </Link>
 
@@ -38,8 +38,8 @@ const Header = () => {
                 to={link.path}
                 className={`px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 ${
                   isActive(link.path)
-                    ? 'text-orange-600 bg-orange-50'
-                    : 'text-gray-700 hover:text-orange-600 hover:bg-orange-50'
+                    ? 'text-sky-600 bg-orange-50'
+                    : 'text-gray-700 hover:text-sky-6000 hover:bg-orange-50'
                 }`}
               >
                 {link.name}
@@ -50,7 +50,7 @@ const Header = () => {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="lg:hidden text-gray-700 hover:text-orange-600 transition-colors"
+            className="lg:hidden text-gray-700 hover:text-sky-600 transition-colors"
           >
             {isMenuOpen ? <X size={28} /> : <Menu size={28} />}
           </button>
@@ -66,8 +66,8 @@ const Header = () => {
                 onClick={() => setIsMenuOpen(false)}
                 className={`block px-4 py-3 rounded-lg text-sm font-medium transition-all duration-200 ${
                   isActive(link.path)
-                    ? 'text-orange-600 bg-orange-50'
-                    : 'text-gray-700 hover:text-orange-600 hover:bg-orange-50'
+                    ? 'text-sky-600 bg-orange-50'
+                    : 'text-gray-700 hover:text-sky-600 hover:bg-orange-50'
                 }`}
               >
                 {link.name}
